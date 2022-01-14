@@ -1,0 +1,14 @@
+C:\Users\MikkelLindstrømPauls\source\repos\DataWarehouseService\BLL\bin\Debug\netcoreapp3.1\Model.dll
+C:\Users\MikkelLindstrømPauls\source\repos\DataWarehouseService\BLL\obj\Debug\netcoreapp3.1\BLL.csprojAssemblyReference.cache
+C:\Users\MikkelLindstrømPauls\source\repos\DataWarehouseService\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
+C:\Users\MikkelLindstrømPauls\source\repos\DataWarehouseService\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
+C:\Users\MikkelLindstrømPauls\source\repos\DataWarehouseService\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
+C:\Users\MikkelLindstrømPauls\source\repos\DataWarehouseService\BLL\bin\Debug\netcoreapp3.1\BLL.deps.json
+C:\Users\MikkelLindstrømPauls\source\repos\DataWarehouseService\BLL\bin\Debug\netcoreapp3.1\BLL.dll
+C:\Users\MikkelLindstrømPauls\source\repos\DataWarehouseService\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
+C:\Users\MikkelLindstrømPauls\source\repos\DataWarehouseService\BLL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\MikkelLindstrømPauls\source\repos\DataWarehouseService\BLL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\MikkelLindstrømPauls\source\repos\DataWarehouseService\BLL\bin\Debug\netcoreapp3.1\Model.pdb
+C:\Users\MikkelLindstrømPauls\source\repos\DataWarehouseService\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
+C:\Users\MikkelLindstrømPauls\source\repos\DataWarehouseService\BLL\obj\Debug\netcoreapp3.1\BLL.dll
+C:\Users\MikkelLindstrømPauls\source\repos\DataWarehouseService\BLL\obj\Debug\netcoreapp3.1\BLL.pdb

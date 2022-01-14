@@ -1,0 +1,301 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\DataWarehouseService\\DataWarehouseService.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\BLL\\BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\MikkelLindstrømPauls\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MikkelLindstrømPauls\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.marselisborg.org/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\DAL\\DAL.csproj"
+              },
+              "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\MikkelLindstrømPauls\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MikkelLindstrømPauls\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.marselisborg.org/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\DataWarehouseService\\DataWarehouseService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\DataWarehouseService\\DataWarehouseService.csproj",
+        "projectName": "DataWarehouseService",
+        "projectPath": "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\DataWarehouseService\\DataWarehouseService.csproj",
+        "packagesPath": "C:\\Users\\MikkelLindstrømPauls\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\DataWarehouseService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MikkelLindstrømPauls\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.marselisborg.org/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\BLL\\BLL.csproj"
+              },
+              "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Authentication.AzureAD.UI": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[1.22.1, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\Model\\Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\MikkelLindstrømPauls\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MikkelLindstrømPauls\\source\\repos\\DataWarehouseService\\Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MikkelLindstrømPauls\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.marselisborg.org/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.13, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
