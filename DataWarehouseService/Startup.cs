@@ -78,9 +78,12 @@ namespace DataWarehouseService
 
             app.UseRouting();
 
-            app.UseAuthorization();
-
             app.UseCors();
+
+
+            app.UseAuthentication();
+
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

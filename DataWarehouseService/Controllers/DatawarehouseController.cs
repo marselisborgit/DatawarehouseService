@@ -39,7 +39,7 @@ namespace DataWarehouseService.Controllers
         /// <returns></returns>
         [HttpGet]
         [Route("Data")]
-        //[Authorize]    
+        [Authorize]
         [ResponseType(typeof(DataTable))]
         public IActionResult Get([FromQuery] string queryName, [FromQuery] DateTime? startDate = null, [FromQuery] DateTime? endDate = null, [FromQuery] int? CountryId = null)
         {
@@ -64,7 +64,7 @@ namespace DataWarehouseService.Controllers
 
         [HttpGet]
         [Route("DataQueries")]
-        //[Authorize]
+        [Authorize]
         public IActionResult GetQueries()
         {
             try
