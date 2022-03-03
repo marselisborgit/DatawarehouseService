@@ -18,6 +18,8 @@ using DAL.Interfaces;
 using Microsoft.AspNetCore.Authentication.AzureAD.UI;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.Identity.Web;
+using Microsoft.IdentityModel.Logging;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace DataWarehouseService
 {
@@ -50,12 +52,12 @@ namespace DataWarehouseService
             services.AddControllers().AddNewtonsoftJson(options =>
             options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
-            services.AddAuthentication(AzureADDefaults.JwtBearerAuthenticationScheme)
-                    .AddAzureAD(options =>
-                        Configuration.Bind("AzureAd", options)
-                    );
-
-            services.AddMicrosoftIdentityWebApiAuthentication(Configuration, "AzureAd");
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                    .AddMicrosoftIdentityWebApi(options =>
+                    {
+                        Configuration.Bind("AzureAd", options);
+                    },
+                    options => { Configuration.Bind("AzureAd", options); });
 
             services.AddCors(o => o.AddDefaultPolicy(builder =>
             {
@@ -72,9 +74,10 @@ namespace DataWarehouseService
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                IdentityModelEventSource.ShowPII = true;
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseRouting();
 
